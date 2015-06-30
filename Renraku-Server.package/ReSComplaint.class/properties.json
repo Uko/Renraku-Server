@@ -1,13 +1,13 @@
 {
 	"category" : "Renraku-Server",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 6/30/2015 11:51",
+	"commentStamp" : "YuriyTymchuk 6/30/2015 14:11",
 	"instvars" : [
-		"teapot" ],
-	"name" : "ReServer",
+		 ],
+	"name" : "ReSComplaint",
 	"pools" : [
 		 ],
 	"super" : "Object",

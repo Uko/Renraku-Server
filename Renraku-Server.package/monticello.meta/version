@@ -1,1 +1,2 @@
-(name 'Renraku-Server-YuriyTymchuk.1' message 'Initial commit' id '1b8f1272-1162-4929-b40b-b8b18b74c826' date '30 June 2015' time '12:01:41.407835 pm' author 'YuriyTymchuk' ancestors () stepChildren ())
+(name 'Renraku-Server-YuriyTymchuk.2' message 'Minor improvements with roating and complaint creation stab' id 'ee663776-dd96-49e9-baae-cfc25497418b' date '30 June 2015' time '2:14:49.65726 pm' author 'YuriyTymchuk' ancestors ((name 'Renraku-Server-Uko.1' message 'Initial commit
+' id '7325ceda-b39d-54e5-adae-70580e70376c' date '30 June 2015' time '12:02:06 pm' author 'Uko' ancestors () stepChildren ())) stepChildren ())
