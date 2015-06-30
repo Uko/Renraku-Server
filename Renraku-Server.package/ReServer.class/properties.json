@@ -1,0 +1,14 @@
+{
+	"category" : "Renraku-Server",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 6/30/2015 11:51",
+	"instvars" : [
+		 ],
+	"name" : "ReServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
