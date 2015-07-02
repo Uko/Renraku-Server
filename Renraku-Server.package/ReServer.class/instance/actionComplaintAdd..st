@@ -1,4 +1,4 @@
 actions
 actionComplaintAdd: request
 
-	^ ReSComplaint new
+	^ (ReSComplaint fromRequest: request) save

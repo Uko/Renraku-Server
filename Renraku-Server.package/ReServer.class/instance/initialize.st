@@ -4,8 +4,9 @@ initialize
 
 	super initialize.
 	
-	teapot := (Teapot configure: {#port -> 4000})
-   		POST: '/complaints' -> [ :req | self actionComplaintAdd: req ];
-		any: '*' -> [ :req | ZnResponse badRequest: req ];
-		exception: Exception -> [ :ex :req |
-			ZnResponse serverError: 'Something bad happened, we are looking into it' ]
+	teapot := (Teapot configure: {#port -> 4000 . #debugMode -> true})
+   		POST: '/complaints' -> [ :req |
+			ZnResponse ok:
+				(ZnByteArrayEntity bytes:
+					(self actionComplaintAdd: req) voyageId value asByteArray) ]
+		
