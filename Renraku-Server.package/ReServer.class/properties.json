@@ -4,7 +4,7 @@
 		"uniqueInstance" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 6/30/2015 11:51",
+	"commentStamp" : "YuriyTymchuk 7/3/2015 14:12",
 	"instvars" : [
 		"teapot" ],
 	"name" : "ReServer",
