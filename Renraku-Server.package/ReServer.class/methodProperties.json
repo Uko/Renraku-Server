@@ -6,7 +6,14 @@
 		"uniqueInstance" : "Uko 6/30/2015 12:02:06" },
 	"instance" : {
 		"actionComplaintAdd:" : "YuriyTymchuk 7/1/2015 11:36",
-		"initialize" : "YuriyTymchuk 7/1/2015 14:25",
-		"initializePort:debugMode:" : "YuriyTymchuk 7/3/2015 14:07",
+		"actionRoot:" : "YuriyTymchuk 7/8/2015 18:04",
+		"actionRuleList:" : "YuriyTymchuk 7/8/2015 18:03",
+		"initializePort:debugMode:" : "YuriyTymchuk 7/8/2015 18:03",
+		"mustacheFooter" : "YuriyTymchuk 7/8/2015 17:23",
+		"mustacheFullTemplateFor:" : "YuriyTymchuk 7/8/2015 17:18",
+		"mustacheHead" : "YuriyTymchuk 7/8/2015 17:13",
+		"mustacheHeader" : "YuriyTymchuk 7/8/2015 17:23",
+		"mustacheRoot" : "YuriyTymchuk 7/8/2015 18:14",
+		"mustacheRuleList" : "YuriyTymchuk 7/8/2015 18:15",
 		"start" : "YuriyTymchuk 6/30/2015 13:17",
 		"stop" : "YuriyTymchuk 6/30/2015 13:17" } }

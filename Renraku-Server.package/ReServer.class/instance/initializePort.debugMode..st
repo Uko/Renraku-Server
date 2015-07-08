@@ -5,6 +5,14 @@ initializePort: aPortNumber debugMode: aDebugFlag
 	super initialize.
 	
 	teapot := (Teapot configure: {#port -> aPortNumber . #debugMode -> aDebugFlag})
+		GET: '/' -> [:req |
+			self actionRoot: req];
+		output: (self mustacheFullTemplateFor:
+			self mustacheRoot);
+		GET:  '/rules' -> [:req |
+			self actionRuleList: req];
+		output: (self mustacheFullTemplateFor:
+			self mustacheRuleList);
    		POST: '/complaints' -> [ :req |
 			ZnResponse ok:
 				(ZnByteArrayEntity bytes:
