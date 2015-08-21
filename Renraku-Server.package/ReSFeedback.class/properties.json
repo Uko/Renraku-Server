@@ -1,0 +1,21 @@
+{
+	"category" : "Renraku-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 8/21/2015 10:56",
+	"instvars" : [
+		"uuid",
+		"author",
+		"pharoVersion",
+		"rule",
+		"target",
+		"time",
+		"comment",
+		"positive" ],
+	"name" : "ReSFeedback",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

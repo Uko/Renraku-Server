@@ -2,7 +2,8 @@ actions
 actionRuleList: request
 
 	^ { #rules ->
-		(((((ReSComplaint selectAll)
+		(((((ReSComplaint selectAll,
+			 (ReSFeedback selectMany: { #positive -> false } asDictionary))
 			groupedBy: #rule)
 			collect: #size) associations
 				sorted: [ :a :b |

@@ -16,4 +16,8 @@ initializePort: aPortNumber debugMode: aDebugFlag
    		POST: '/complaints' -> [ :req |
 			ZnResponse ok:
 				(ZnByteArrayEntity bytes:
-					(self actionComplaintAdd: req) voyageId value asByteArray) ]
+					(self actionComplaintAdd: req) voyageId value asByteArray) ];
+		POST: '/feedback' -> [ :req |
+			ZnResponse ok:
+				(ZnByteArrayEntity bytes:
+					(self actionFeedbackAdd: req) voyageId value asByteArray) ]

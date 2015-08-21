@@ -8,5 +8,5 @@ runServerOn: aPortNumber withMongoUser: aUserName andPassword: aPassword inDebug
 		password: aPassword) enableSingleton.
 		
 	self uniqueInstance
-		initializePort: aPortNumber debugMode: aPassword;
+		initializePort: aPortNumber debugMode: boolOption;
 		start

@@ -2,7 +2,7 @@ mustache
 mustacheRuleList
 
 	^ '
-	<h3>Complaints About SmallLint Rules</h3>
+	<h3>Negative Feedbacks About SmallLint Rules</h3>
 <table class="table table-hover table-condensed">
 <tr>
    <th>Rule name</th>
