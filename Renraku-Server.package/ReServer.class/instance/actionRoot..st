@@ -2,5 +2,5 @@ actions
 actionRoot: request
 
 	^ { #complaints ->
-		 ReSComplaint selectAll size + ReSFeedback selectAll
+		 (ReSComplaint selectAll size + ReSFeedback selectAll size)
 	  } asDictionary 
